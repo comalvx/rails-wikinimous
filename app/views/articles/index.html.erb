@@ -1,13 +1,15 @@
 <ul>
-  <% @articles.each do |article| %>
+    <% @articles.each do |article| %>
   <li>
-      <h2><%= link_to article.title, article_path(article) %></h2>
+      <h3><%= link_to article.title, article_path(article) %></h3>
       <p><%= article.content %></p>
-      <%= link_to "Delete article",
+      <p><%=
+      link_to "Delete article",
         article_path(article),
         method: :delete,
         data: {confirm: "Are you sure?"}
-      %>
+       %>
+       </p>
   </li>
-  <% end %>
+    <% end %>
 </ul>
