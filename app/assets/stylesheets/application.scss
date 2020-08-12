@@ -1,0 +1,51 @@
+@import "bootstrap/scss/bootstrap";
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #F8F8F8;
+  padding: 15px;
+}
+
+header .logo {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: regular;
+  font-style: regular;
+  font-size: 18px;
+  color: #5F5F5F
+}
+
+header a {
+  font-size: 14px;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: #5F5F5F;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+li > h3 a {
+  text-decoration: none;
+  color: #337AB7;
+}
+
+ul > li {
+  list-style: none;
+}
+
+ul > li p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: light;
+  color: #333333;
+}
